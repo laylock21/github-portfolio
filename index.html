@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>James Parchamento | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="floating-nav">
+
+    <a href="#projects" class="floating-nav-link">
+        <span class="nav-dot"></span>
+        <span class="nav-text">Projects</span>
+    </a>
+
+    <a href="#contact" class="floating-nav-link">
+        <span class="nav-dot"></span>
+        <span class="nav-text">Contact</span>
+    </a>
+
+    </nav>
+
+    <header class="navbar">
+    <!-- Mobile Menu Button -->
+    <button
+        class="menu-button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+    >
+        <span></span>
+        <span></span>
+    </button>
+
+    </header>
+
+
+    <!-- =========================
+        MOBILE NAVIGATION
+    ========================= -->
+
+    <div class="mobile-menu">
+
+        <nav class="mobile-nav">
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </div>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- =========================
+            PROJECTS SECTION
+        ========================= -->
+
+        <section id="projects" class="projects reveal">
+
+            <div class="projects-content">
+
+                <div class="projects-list">
+
+
+                    <!-- =========================
+                        PROJECT 01
+                    ========================== -->
+
+                    <article class="project-card">
+
+                        <!-- WEBSITE IMAGE -->
+                        <div class="project-image">
+
+                            <!-- SLIDES -->
+
+                            <div class="project-slideshow">
+
+                                <img
+                                    src="assets/images/proj.1image.png"
+                                    alt="Project Screenshot 1"
+                                    class="project-screenshot active"
+                                >
+
+                                <img
+                                    src="assets/images/proj.2image.png"
+                                    alt="Project Screenshot 2"
+                                    class="project-screenshot"
+                                >
+
+                                <img
+                                    src="assets/images/proj.3image.png"
+                                    alt="Project Screenshot 3"
+                                    class="project-screenshot"
+                                >
+
+                            </div>
+
+
+                            <!-- PREVIOUS BUTTON -->
+
+                            <button
+                                class="slide-button slide-prev"
+                                aria-label="Previous image"
+                            >
+                                ←
+                            </button>
+
+
+                            <!-- NEXT BUTTON -->
+
+                            <button
+                                class="slide-button slide-next"
+                                aria-label="Next image"
+                            >
+                                →
+                            </button>
+
+
+                         IMAGE COUNTER -->
+
+                            <div class="slide-counter">
+
+                                <span class="current-slide">01</span>
+
+                                <span class="slide-divider">/</span>
+
+                                <span class="total-slides">03</span>
+
+                            </div>
+
+                        </div>
+
+
+                      
+                        <div class="project-details">
+
+                            <span class="project-number">
+                                01
+                            </span>
+
+
+                            <h3>
+                                Venti project
+                            </h3>
+
+
+                            <p>
+                                It is an Inventory management CRUD system used for
+                                monitoring, passing and deleting products.
+                            </p>
+
+
+                            <div class="project-tags">
+
+                                <span>Laravel</span>
+                                <span>React</span>
+                                <span>SQlite</span>
+
+                            </div>
+
+
+                            <div class="project-links">
+
+                                <a href="https://github.com/laylock21/reactlarav" target="_blank">
+                                    GitHub ↗
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                    
+                        <div class="project-image">
+
+
+                            <div class="project-slideshow">
+
+                                <img
+                                    src="assets/images/Screenshot_20260925_181237.png"
+                                    alt="Project Screenshot 1"
+                                    class="project-screenshot active"
+                                >
+
+                                <img
+                                    src="assets/images/Screenshot_20260925_181333.png"
+                                    alt="Project Screenshot 2"
+                                    class="project-screenshot"
+                                >
+
+                            </div>
+
+
+                            
+
+                            <button
+                                class="slide-button slide-prev"
+                                aria-label="Previous image"
+                            >
+                                ←
+                            </button>
+
+
+
+                            <button
+                                class="slide-button slide-next"
+                                aria-label="Next image"
+                            >
+                                →
+                            </button>
+
+
+                            
+
+                            <div class="slide-counter">
+
+                                <span class="current-slide">01</span>
+
+                                <span class="slide-divider">/</span>
+
+                                <span class="total-slides">02</span>
+
+                            </div>
+
+                        </div>
+
+
+                       
+                        <div class="project-details">
+
+                            <span class="project-number">
+                                02
+                            </span>
+
+
+                            <h3>
+                                MD Law Project
+                            </h3>
+
+
+                            <p>
+                                It is a CRUD management system used for monitoring, passing and deleting client requests.
+                            </p>
+
+
+                            <div class="project-tags">
+
+                                <span>PHP</span>
+                                <span>JavaScript</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+
+                            </div>
+
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+        
+    
+
+        <section id="contact" class="contact reveal">
+
+            
+            <div class="contact-photo">
+
+                <img
+                    src="assets/images/picture21.jpg"
+                    alt="James Clarence Parchamento"
+                >
+
+            </div>
+
+
+            
+            <div class="contact-information">
+
+
+               
+                <div class="contact-intro">
+
+                    <h2>
+                        Let's build
+                        <span>something great.</span>
+                    </h2>
+
+                    <p>
+                        Have a project, opportunity, or idea in mind?
+                        Feel free to reach out and let's talk.
+                    </p>
+
+                </div>
+
+
+               
+                <div class="contact-links">
+
+
+                    <a
+                        href="https://github.com/laylock21"
+                        target="_blank"
+                        class="contact-link"
+                    >
+                        <span>GitHub</span>
+                        <span>↗</span>
+                    </a>
+
+
+                    <a
+                        href="https://linkedin.com/in/james-clarence-parchamento-84b429336"
+                        target="_blank"
+                        class="contact-link"
+                    >
+                        <span>LinkedIn</span>
+                        <span>↗</span>
+                    </a>
+
+
+                </div>
+
+            </div> 
+            
+
+        </section>
+        
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 James Clarence Parchamento. All rights reserved.
+        </p>
+
+        <p>
+            Built with HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
